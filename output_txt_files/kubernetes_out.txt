@@ -1,0 +1,19 @@
+<paste log output from Kubernetes-mediated prediction, here>
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+(.devops) Administrator:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "awsml" already exists
+NAME      READY   STATUS             RESTARTS   AGE
+awsml     1/1     Running            1          20h
+http      0/1     ImagePullBackOff   0          79m
+project   1/1     Running            0          14m
+tcp       0/1     ImagePullBackOff   0          72m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
