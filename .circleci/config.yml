@@ -13,9 +13,9 @@ jobs:
 
     steps:
       - checkout:
-           post:
-             - pip install --upgrade pip setuptools wheel
-             - pip install -U pip setuptools virtualenv
+   #        post:
+   #          - pip install --upgrade pip setuptools wheel
+   #          - pip install -U pip setuptools virtualenv
 
 # Download and cache dependencies
    - restore_cache:
