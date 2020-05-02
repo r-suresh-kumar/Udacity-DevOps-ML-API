@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
     # Use the same Docker base as the project
-      - image: python:3.6.10-stretch
+      - image: python:3.7.3-stretch
 
 # working_directory: ~/repo
 
@@ -47,5 +47,5 @@ wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.
 - run:
   name: run lint
   command: |
-    . devops/bin/activate
+    . venv/bin/activate
     make lint
