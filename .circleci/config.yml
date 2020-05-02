@@ -13,8 +13,8 @@ jobs:
 
     steps:
       - checkout:
-           post:
-              - pip wheel --no-use-pep517
+   #        post:
+   #          - pip wheel --no-use-pep517
    #          - pip install --upgrade pip setuptools wheel
    #          - pip install -U pip setuptools virtualenv
 
