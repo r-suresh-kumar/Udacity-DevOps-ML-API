@@ -1,5 +1,6 @@
 <include a CircleCI status badge, here>
-[![CircleCI](https://app.circleci.com/pipelines/github/r-suresh-kumar/Udacity-DevOps-ML-API/27/workflows/80d51c8e-5c52-4df9-991f-c720ed2a4742)] (https://app.circleci.com/pipelines/github/r-suresh-kumar/Udacity-DevOps-ML-API)
+[![CircleCI](https://circleci.com/gh/circleci/r-suresh-kumar/Udacity-DevOps-ML-API.svg?style=svg)]
+(https://circleci.com/gh/circleci/r-suresh-kumar/Udacity-DevOps-ML-API)
 
 ## Project Overview
 
